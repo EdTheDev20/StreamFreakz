@@ -1,0 +1,17 @@
+{
+  "name": "streamfreakz",
+  "version": "1.0.0",
+  "description": "Usado para a aula prática nº02 | Edgar Cardoso, Luís Gomes e Elber Pedro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Edgar Cardoso, Luís Gomes e Elber Pedro",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "video.js": "^8.10.0"
+  }
+}

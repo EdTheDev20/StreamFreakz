@@ -1,0 +1,31 @@
+{
+  "files": {
+    "Videos": [
+      {
+        "title": "Mortal Kombat",
+        "path": "./source/videos/1.mp4",
+        "thumbnail": "./source/images/1.png"
+      },
+      {
+        "title": "One Piece",
+        "path": "./source/videos/2.mp4",
+        "thumbnail": "./source/images/2.png"
+      },
+      {
+        "title": "Real Madrid",
+        "path": "./source/videos/3.mp4",
+        "thumbnail": "./source/images/3.png"
+      },
+      {
+        "title": "Jujutsu Kaisen",
+        "path": "./source/videos/4.mp4",
+        "thumbnail": "./source/images/4.png"
+      },
+      {
+        "title": "X Men",
+        "path": "./source/videos/5.mp4",
+        "thumbnail": "./source/images/5.png"
+      }
+    ]
+  }
+}

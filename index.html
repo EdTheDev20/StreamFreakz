@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streamfreakz</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@popperjs/core/dist/umd/popper.min.js">
+    <link rel="stylesheet" href="./node_modules/video.js/dist/video-js.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./node_modules/video.js/dist/video.min.js"></script>
+</head>
+<body>
+
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+                <img src="./source/images/noun-monster-57333.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                StreamFreakz
+          </a>
+        </div>
+    </nav>
+
+                        
+    <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <video
+                id="my-player"
+                class="video-js"
+                controls
+                preload="auto"
+                poster=""
+                data-setup='{}'>
+                <source src="/source/videos/5.mp4" type="video/mp4"></source>
+                <p class="vjs-no-js">
+                    To view this video please enable JavaScript, and consider upgrading to a
+                    web browser that
+                    <a href="https://videojs.com/html5-video-support/" target="_blank">
+                        supports HTML5 video
+                    </a>
+                </p>
+            </video>
+            </div>
+            <div class="col-3 text-center">
+                <h4>Playlist</h4>
+                <hr>
+                <div id="cardDiv">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+<script src="/Javascript/functions.js"></script>
+</body>
+</html>
